@@ -1,0 +1,25 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.principal{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+.principal ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.principal h2{
+  margin: 15px 0;
+}
