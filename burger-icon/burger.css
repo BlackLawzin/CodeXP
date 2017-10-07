@@ -1,0 +1,15 @@
+#menu-burger {
+  width: 30px; 
+  height: 30px
+}
+
+.layer {
+  width: 35px; 
+  height: 5px; 
+  background-color: black; 
+  margin: 6px 0;
+}
+
+#menu-list {
+  display: none;
+}

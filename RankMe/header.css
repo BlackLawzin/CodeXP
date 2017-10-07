@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  padding: 10px 20px;
+  background: red;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+}
+
+nav{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+nav img{
+    width: 30px;
+    height: 40px;
+    float: right;
+}
+
+nav ul{
+    display:none;
+    list-style: none;
+    position: relative;
+    background: black;
+    width: 80px;
+    padding: 5px;
+    clear: both;
+}
+
+nav li{
+    text-align: center;
+}
+
+nav a{
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+#menu-burger {
+  width: 30px; 
+  height: 30px;
+}
