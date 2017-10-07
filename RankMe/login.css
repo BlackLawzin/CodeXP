@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+
+.main{
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-position: center;
+    width: 200px;
+    height: 125px;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+form{
+    height: 70%;
+}
+
+.btnCadastrar{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: white;
+    color: red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+#form-cadastro {
+  width: 100%;
+    padding: 60px 0;
+}
+
+.form-input {
+  padding:10px;
+  width: 100%;
+  border: 3px solid #ccc;
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+
+input[type="text"][required]:focus {
+  border-color: #00bafa;
+}
+
+
+hr {
+  width: 80%;
+}
+
+.title {
+  text-align: center;  
+  margin: 45px 0 0 0;
+}
+
+#user-type {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-type {
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+#cadastrar {
+  width: 100%; 
+  text-align: center;
+  margin: 25px 0 0 0;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  width: 60%;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
