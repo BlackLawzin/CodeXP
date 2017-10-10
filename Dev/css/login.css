@@ -31,7 +31,7 @@ form{
     height: 70%;
 }
 
-.btnCadastrar{
+.btnEntrar{
     padding: 10px 20px;
     font-size: 16px;
     background: white;
@@ -42,9 +42,7 @@ form{
 }
 
 
-
-
-#form-cadastro {
+#form-login {
   width: 100%;
     padding: 60px 0;
 }
@@ -58,49 +56,6 @@ form{
     
 }
 
-input[type="text"][required]:focus {
+input[type="text"]:focus {
   border-color: #00bafa;
-}
-
-
-hr {
-  width: 80%;
-}
-
-.title {
-  text-align: center;  
-  margin: 45px 0 0 0;
-}
-
-#user-type {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.user-type {
-  width: 60%;
-  padding: 10px;
-  text-align: center;
-}
-
-#cadastrar {
-  width: 100%; 
-  text-align: center;
-  margin: 25px 0 0 0;
-}
-
-button {
-  padding: 10px;
-  font-size: 20px;
-  width: 60%;
-  margin: 20px auto;
-  cursor: pointer;
-  border-radius: 12px;
-}
-
-button:hover {
-  background-color: red;
-  color: white;
 }
