@@ -8,6 +8,10 @@ html, body{
   height: 100%;
 }
 
+.clear{
+    clear: both;
+}
+
 header{
   padding: 10px 20px;
   background: red;
@@ -25,25 +29,22 @@ header{
     border: 2px solid white;
 }
 
-nav{
-    margin-top: 7px;
-    cursor: pointer;
-}
 
 nav img{
+    margin-top: 10px;
     width: 30px;
-    height: 40px;
+    cursor: pointer;
     float: right;
 }
 
 nav ul{
     display:none;
     list-style: none;
-    position: relative;
+    position: absolute;
     background: black;
-    width: 80px;
     padding: 5px;
-    clear: both;
+    top: 60px;
+    right: 20px;
 }
 
 nav li{
@@ -52,14 +53,9 @@ nav li{
 
 nav a{
     display: block;
-    padding: 5px 0;
+    padding: 10px 20px;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     
-}
-
-#menu-burger {
-  width: 30px; 
-  height: 30px;
 }
