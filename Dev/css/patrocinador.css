@@ -1,0 +1,130 @@
+body {
+	font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}	
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+	display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+b {
+	font-weight: bold;
+}
+
+.sponsor-box  img.first, .trophy-section .fa-trophy.first {
+	margin-left: 0px;
+}
+
+.img-rounded-atleta {
+	background-image: url("../imagens/profile.jpg");
+	width: 500px;
+	height: 500px;
+	background-position: center;
+	border-radius: 50%;
+	border: 1px solid rgba(226, 226, 226, 0.69);
+    margin: 30px auto;
+}
+
+.profile {
+	margin: 10px;
+}
+
+.profile .name {
+	margin-top: 20px;
+}
+
+.profile .description {
+	margin: 10px;
+}
+
+.trophy-section, .sponsor-section {
+    margin: 21px 10px;
+
+}
+
+.trophy-section .fa-trophy {
+    font-size: 155px;
+    color: #d0d04d;	
+    padding: 25px;
+    border-radius: 6%;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+.trophy-box, .sponsor-box {
+	margin: 10px 0;
+}
+
+.sponsor-box  img{
+    height: 156px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 13px;
+    margin: 12px;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button-large {
+    border-radius: 55px;
+    font-size: 50px;
+    padding: 20px 120px;
+}
+
+.button-black {
+    color: #fff;
+    background-color: #000;
+}
+
+.center {
+    text-align: center;
+}

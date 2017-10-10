@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Tela Conquistas</title>
+	<link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	
+</head>
+<body>
+<header>
+	<div class="logo"></div>
+      <nav id="menu-burguer">
+          <img src="imagens/Hamburger_icon.png">
+          <ul id="list">
+              <li><a href="#">Perfil</a></li>
+              <li><a href="#">Sair</a></li>
+          </ul>
+          <div class="clear"></div>
+      </nav>
+</header>
+
+<main>
+	<section class="card-perfil">
+		<article>
+			<div class="img-rounded">
+			</div>
+			<h1>Nome do atleta</h1>
+			<div class="star">
+				<i class="fa fa-star fa-3x" aria-hidden="true"></i>
+				<i class="fa fa-star fa-3x" aria-hidden="true"></i>
+				<i class="fa fa-star fa-3x" aria-hidden="true"></i>
+				<i class="fa fa-star fa-3x" aria-hidden="true"></i>
+				<i class="fa fa-star fa-3x" aria-hidden="true"></i>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, hic sint neque harum enim est?</p>
+		</article>
+	</section>
+
+	<section class="conquistas">
+		<h2>Patrocinador</h2>
+		<ul>
+			<li>
+				<div class="img-rectangle-trofeu">
+				</div>
+				<span>Corrida São Silvestre</span>
+			</li>
+			<li>
+				<div class="img-rectangle-trofeu">
+				</div>
+				<span>Corrida São Silvestre</span>
+			</li>
+			<li>
+				<div class="img-rectangle-trofeu">
+				</div>
+				<span>Corrida São Silvestre</span>
+			</li>
+		</ul>
+	</section>
+	<section class="conquistas">
+		<h2>Patrocinador</h2>
+		<ul>
+			<li>
+				<div class="img-rectangle-patrocinador">
+				</div>
+				<span>Usain Bolt</span>
+			</li>
+			<li>
+				<div class="img-rectangle-patrocinador">
+				</div>
+				<span>Usain Bolt</span>
+			</li>
+			<li>
+				<div class="img-rectangle-patrocinador">
+				</div>
+				<span>Usain Bolt</span>
+			</li>
+		</ul>
+	</section>
+	<div>
+		<ul></ul>
+	</div>
+
+</main>
+
+<footer>
+	
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    $('nav img').click(function(){
+        $('nav ul').slideToggle();
+        return false;
+    })
+</script>
+</body>
+</html>
