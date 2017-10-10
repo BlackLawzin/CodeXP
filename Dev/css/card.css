@@ -4,7 +4,9 @@
 	box-sizing: border-box;
 }
 
-
+.card-perfil{
+	margin-top: 30px;
+}
 
 .card-perfil article{
 	padding: 0 1rem;
@@ -21,7 +23,6 @@
 .card-perfil p{
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
 	font-size: 2.4em;
 	text-align: center;
 }
@@ -31,7 +32,6 @@
 	background-position: center;
 	background-size: 100%;
 	margin: 0px auto;
-	margin-top: 300px;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
