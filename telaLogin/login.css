@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+
+.main{
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-position: center;
+    width: 200px;
+    height: 125px;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+form{
+    height: 70%;
+}
+
+.btnEntrar{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: white;
+    color: red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#form-login {
+  width: 100%;
+    padding: 60px 0;
+}
+
+.form-input {
+  padding:10px;
+  width: 100%;
+  border: 3px solid #ccc;
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+
+input[type="text"]:focus {
+  border-color: #00bafa;
+}
