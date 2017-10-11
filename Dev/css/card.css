@@ -3,100 +3,42 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-.card-perfil{
-	margin-top: 30px;
-}
-
-.card-perfil article{
-	padding: 0 1rem;
-}
-
-.card-perfil h1{
-	display: flex;
-	justify-content: center;
-	margin: 30px 0;
-	font-size: 3.5rem;
-
-}
-
-.card-perfil p{
-	display: flex;
-	justify-content: center;
-	font-size: 2.4em;
-	text-align: center;
-}
-
-.img-rounded{
-	background: url("../imagens/atleta_edited.jpg") no-repeat;
-	background-position: center;
-	background-size: 100%;
-	margin: 0px auto;
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-}
-
-.star{
-	width: 300px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-/*SECTION PRINCIPAL*/
-.conquistas{
-	width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	box-shadow: 1px 1px 8px #000;
-	margin-top: 30px;
-
-}
-
-.conquistas h2{
-	margin-top: 30px;
-	margin-bottom: 30px;
-	text-transform: uppercase;
-	font-size: 2.7em;
-}
-
-.img-rectangle-trofeu{
-	width: 250px;
-	height: 250px;
-	box-shadow: 3px 3px 8px #000;
-	background: url("../imagens/trofeu.jpg") no-repeat center;
-}
-
-.img-rectangle-patrocinador{
-	width: 250px;
-	height: 250px;
-	box-shadow: 3px 3px 8px #000;
-	background: url("../imagens/bolt-treinador.jpg") no-repeat center;
-}
-
-.conquistas ul{
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
+#perfil{
 	width: 100%;
-	padding: 10px 20px;
+	margin-top: 2%;
 }
 
-.conquistas ul li{
-	width: 32%;
-	height: auto;
+#perfil, #conquistas ul li, #treinador ul li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#conquistas ul li img, #treinador ul li img{
+	width: 25vw;
+
+}
+#conquistas ul ,  #treinador ul{ 
+	display: flex ;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+}
+.img-rounded {
+	width: 20vw;
+	border-radius: 50%;
+} 
+#conquistas , #treinador {
+	text-align: center;
+}
+#conquistas ul li, #treinador ul li{
+	margin-left: 2%;
+	width: 20vw
+} 
+#conquistas ul li figure , #treinador ul li figure{
 	display: flex;
 	align-items: center;
-	flex-direction: column;
-	padding: 20px;
-}
-
-.conquistas li span{
-	margin-top: 15px;
-	font-size: 2rem;
-	text-align: center;
+    overflow: hidden;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
 }

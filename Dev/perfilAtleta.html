@@ -10,23 +10,21 @@
 	
 </head>
 <body>
-<header>
-	<div class="logo"></div>
-      <nav id="menu-burguer">
-          <img src="imagens/Hamburger_icon.png">
-          <ul id="list">
-              <li><a href="perfilAtleta.html">Perfil</a></li>
-              <li><a href="login.html">Sair</a></li>
-          </ul>
-          <div class="clear"></div>
-      </nav>
-</header>
 
-<main>
-	<section class="card-perfil">
-		<article>
-			<div class="img-rounded">
-			</div>
+	<header>
+		<div class="logo"></div>
+	      <nav id="menu-burguer">
+	          <img src="imagens/Hamburger_icon.png">
+	          <ul id="list">
+	              <li><a href="perfilAtleta.html">Perfil</a></li>
+	              <li><a href="login.html">Sair</a></li>
+	          </ul>
+	          <div class="clear"></div>
+	      </nav>
+	</header>
+	<main>
+		<section id="perfil">
+			<img class="img-rounded" src="imagens/atleta_edited.jpg" alt="Foto de perfil do(a) atleta">
 			<h1>Ana Carolina Salgado</h1>
 			<div class="star">
 				<i class="fa fa-star fa-3x" aria-hidden="true"></i>
@@ -36,64 +34,52 @@
 				<i class="fa fa-star fa-3x" aria-hidden="true"></i>
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, hic sint neque harum enim est?</p>
-		</article>
-	</section>
+			<article id="conquistas">
+				<h2>Conquistas</h2>
+				<ul>
+					<li>
+						<figure><img src="imagens/trofeu.jpg" alt="trofeu"></figure>
+						<figcaption>Corrida São Silvestre</figcaption>
+					</li>
+					<li>
+						<figure><img src="imagens/trofeu.jpg" alt="trofeu"></figure>
+						<figcaption>Corrida São Silvestre</figcaption>
+					</li>
+					<li>
+						<figure><img src="imagens/trofeu.jpg" alt="trofeu"></figure>
+						<figcaption>Corrida São Silvestre</figcaption>
+					</li>
+				</ul>
+			</article>
+			
+			<article id="treinador">
+				<h2>Treinador</h2>  
+				<ul>
+					<li>
+						<figure><img src="imagens/bolt-treinador.jpg" alt="treinador"></figure>
+						<figcaption>Usain Bolt</figcaption>
+					</li>
+					<li>
+						<figure><img src="imagens/bolt-treinador.jpg" alt="treinador"></figure>
+						<figcaption>Usain Bolt</figcaption>
+					</li>
+					<li>
+						<figure><img src="imagens/bolt-treinador.jpg" alt="treinador"></figure>
+						<figcaption>Usain Bolt</figcaption>
+					</li>
+				</ul>
+			</article>
+		</section>
+	</main>
+	<footer>
 
-	<section class="conquistas">
-		<h2>Conquistas</h2>
-		<ul>
-			<li>
-				<div class="img-rectangle-trofeu">
-				</div>
-				<span>Corrida São Silvestre</span>
-			</li>
-			<li>
-				<div class="img-rectangle-trofeu">
-				</div>
-				<span>Corrida São Silvestre</span>
-			</li>
-			<li>
-				<div class="img-rectangle-trofeu">
-				</div>
-				<span>Corrida São Silvestre</span>
-			</li>
-		</ul>
-	</section>
-	<section class="conquistas">
-		<h2>Patrocinador</h2>
-		<ul>
-			<li>
-				<div class="img-rectangle-patrocinador">
-				</div>
-				<span>Usain Bolt</span>
-			</li>
-			<li>
-				<div class="img-rectangle-patrocinador">
-				</div>
-				<span>Usain Bolt</span>
-			</li>
-			<li>
-				<div class="img-rectangle-patrocinador">
-				</div>
-				<span>Usain Bolt</span>
-			</li>
-		</ul>
-	</section>
-	<div>
-		<ul></ul>
-	</div>
-
-</main>
-
-<footer>
-	
-</footer>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script>
-    $('nav img').click(function(){
-        $('nav ul').slideToggle();
-        return false;
-    })
-</script>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$('nav img').click(function(){
+			$('nav ul').slideToggle();
+			return false;
+		})
+	</script>
 </body>
 </html>
