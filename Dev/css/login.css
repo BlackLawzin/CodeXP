@@ -19,17 +19,14 @@ html, body{
     font-weight: bold;
 }
 
-.logo{
-    background-image: url('../imagens/logo.png');
-    background-position: center;
-    width: 200px;
-    height: 125px;
-    margin: 0 auto;
+img{
     border: 2px solid white;
 }
 
+
 form{
     height: 70%;
+    padding: 40px 0;
 }
 
 .btnEntrar{

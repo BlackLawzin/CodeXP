@@ -10,6 +10,7 @@
 
 .card-perfil article{
 	padding: 0 1rem;
+    text-align: center;
 }
 
 .card-perfil h1{
@@ -28,10 +29,6 @@
 }
 
 .img-rounded{
-	background: url("../imagens/atleta_edited.jpg") no-repeat;
-	background-position: center;
-	background-size: 100%;
-	margin: 0px auto;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
