@@ -19,7 +19,7 @@ html, body{
 }
 
 .logo{
-    background-image: url('../imagens/logo.png');
+    background-image: url(logo.png);
     background-position: center;
     width: 200px;
     height: 125px;
