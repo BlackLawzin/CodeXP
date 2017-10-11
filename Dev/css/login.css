@@ -27,9 +27,13 @@ html, body{
     width: 200px;
     height: 125px;
     margin: 0 auto;
+  }
+
+img{
     border: 2px solid white;
     border-radius: 10px;
 }
+
 
 form{
     height: 70%;
