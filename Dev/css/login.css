@@ -17,6 +17,14 @@ html, body{
     background: red;
     color: white;
     font-weight: bold;
+    background-image: url('../imagens/run.jpg');
+    background-repeat: no-repeat;
+}
+
+.form-area {
+  background-color: #FFFFFF;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .logo{
