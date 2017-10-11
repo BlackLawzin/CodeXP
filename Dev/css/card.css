@@ -34,7 +34,7 @@
 	margin-left: 2%;
 	width: 20vw
 } 
-#conquistas ul li div , #treinador ul li div{
+#conquistas ul li figure , #treinador ul li figure{
 	display: flex;
 	align-items: center;
     overflow: hidden;
