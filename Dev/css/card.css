@@ -8,36 +8,41 @@
 	margin-top: 2%;
 }
 
+.img-rounded {
+	width: 30vw;
+	border-radius: 50%;
+}
+
+#conquistas , #treinador {
+	width: 100%;
+	text-align: center;	
+}
+
+#conquistas ul ,  #treinador ul{ 
+	width: 100%;
+	display: flex ;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#conquistas ul li ,  #treinador ul li{
+	width: auto;
+} 
+
 #perfil, #conquistas ul li, #treinador ul li{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 #conquistas ul li img, #treinador ul li img{
-	width: 25vw;
-
-}
-#conquistas ul ,  #treinador ul{ 
-	display: flex ;
-	flex-wrap: wrap;
 	width: 100%;
-	justify-content: space-around;
 }
-.img-rounded {
-	width: 20vw;
-	border-radius: 50%;
-} 
-#conquistas , #treinador {
-	text-align: center;
-}
-#conquistas ul li, #treinador ul li{
-	margin-left: 2%;
-	width: 20vw
-} 
+
 #conquistas ul li figure , #treinador ul li figure{
 	display: flex;
 	align-items: center;
     overflow: hidden;
+    flex-wrap: wrap;
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
