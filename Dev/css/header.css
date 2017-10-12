@@ -15,16 +15,17 @@ html, body{
 
 header{
   padding: 10px 20px;
-  background: red;
+  background: rgb(146, 16, 16);
   display: flex;
   justify-content: space-between;
   
 }
 
 .logo{
-    width: 100px;
+    width: auto;
     height: 50px;
-    border: 2px solid white;
+    background-color: ;
+    
 }
 
 
