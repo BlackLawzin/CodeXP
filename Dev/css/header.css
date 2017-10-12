@@ -22,9 +22,6 @@ header{
 }
 
 .logo{
-    background-image: url('../imagens/logo.png');
-    background-position: center;
-    background-size: cover;
     width: 100px;
     height: 50px;
     border: 2px solid white;

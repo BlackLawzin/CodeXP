@@ -10,19 +10,21 @@
 </head>
 <body>
     <section class="main">
-        
-        <div class="logo"></div>
-        
-        <form id="form-cadastro">
+      <article class="form-container">
+        <div class="form-overlay"></div>
+      </article>
+      <article class="form-area">
+        <img src="Dev/imagens/logo.png">
+
+        <form action="Dev/perfilAtleta.html" method="post" id="form-login">
             <input class="form-input" type="text" placeholder='Nome Completo'>
-            <input class="form-input" type="text" placeholder="Telefone">
-            <input class="form-input" type="text" placeholder="E-mail">
+            <input class="form-input" type="phone" placeholder="Telefone">
+            <input class="form-input" type="email" placeholder="E-mail">
             <input class="form-input" type="password" placeholder="Senha *****">
+            <button class="btnEntrar" type="submit">Entrar</button>
   	     </form>
-        
-        <div class="btnEntrar"><a href="Dev/perfilAtleta.html">Cadastrar</a></div>
-        
+      </article>
     </section>
-  
+
 </body>
 </html>

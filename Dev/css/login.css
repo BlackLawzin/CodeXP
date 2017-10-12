@@ -14,9 +14,11 @@ html, body{
     height: 100%;
     padding: 50px;
     text-align: center;
-    background: red;
     color: white;
     font-weight: bold;
+}
+
+.form-area {
 }
 
 .logo{
@@ -25,38 +27,76 @@ html, body{
     width: 200px;
     height: 125px;
     margin: 0 auto;
+  }
+
+img{
     border: 2px solid white;
+    border-radius: 10px;
 }
+
 
 form{
     height: 70%;
+    margin: 50px 0;
 }
 
 .btnEntrar{
-    padding: 10px 20px;
+    padding: 12px 20px;
     font-size: 16px;
-    background: white;
-    color: red;
+    background: rgba(70, 205, 220, 0.9);
+    color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    margin: 20px 0;
 }
-
 
 #form-login {
   width: 100%;
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .form-input {
-  padding:10px;
   width: 100%;
-  border: 3px solid #ccc;
-    font-size: 18px;
-    margin: 10px 0;
-    
+  border: none;
+  font-size: 15px;
+  margin: 10px 0;
+  border-radius: 30px;
+  background-color: rgba(255, 250, 250, 0.89);
+  color: #4e4e4e;
+  padding: 15px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-input:focus {
+    outline: none;
 }
 
 input[type="text"]:focus {
   border-color: #00bafa;
+}
+
+.form-container {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../imagens/run.jpg');
+  background-repeat: no-repeat;
+}
+
+.form-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(152, 118, 118, 0.7);
 }

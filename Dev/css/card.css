@@ -3,10 +3,63 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.card-perfil{
+	margin-top: 30px;
+}
+
+.card-perfil article{
+	padding: 0 1rem;
+    text-align: center;
+}
+
+.card-perfil h1{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+	font-size: 3.5rem;
+
+}
+
+.card-perfil p{
+	display: flex;
+	justify-content: center;
+	font-size: 2.4em;
+	text-align: center;
+}
+
+.star{
+	width: 300px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 #perfil{
 	width: 100%;
 	margin-top: 2%;
 }
+
+.img-rounded {
+	width: 30vw;
+	border-radius: 50%;
+}
+
+#conquistas , #treinador {
+	width: 100%;
+	text-align: center;	
+}
+
+#conquistas ul ,  #treinador ul{ 
+	width: 100%;
+	display: flex ;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#conquistas ul li ,  #treinador ul li{
+	width: auto;
+} 
 
 #perfil, #conquistas ul li, #treinador ul li{
 	display: flex;
@@ -14,30 +67,14 @@
 	align-items: center;
 }
 #conquistas ul li img, #treinador ul li img{
-	width: 25vw;
-
-}
-#conquistas ul ,  #treinador ul{ 
-	display: flex ;
-	flex-wrap: wrap;
 	width: 100%;
-	justify-content: space-around;
 }
-.img-rounded {
-	width: 20vw;
-	border-radius: 50%;
-} 
-#conquistas , #treinador {
-	text-align: center;
-}
-#conquistas ul li, #treinador ul li{
-	margin-left: 2%;
-	width: 20vw
-} 
+
 #conquistas ul li figure , #treinador ul li figure{
 	display: flex;
 	align-items: center;
     overflow: hidden;
+    flex-wrap: wrap;
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
