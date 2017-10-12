@@ -32,6 +32,9 @@ html, body{
 img{
     border: 2px solid white;
     border-radius: 10px;
+    height: 200px;
+    padding: 17px;
+    background-color: rgba(146, 16, 16, 0.59);
 }
 
 
@@ -55,7 +58,7 @@ form{
 
 #form-login {
   width: 100%;
-  padding: 60px 0;
+  padding: 15px 0;
 }
 
 .form-input {
