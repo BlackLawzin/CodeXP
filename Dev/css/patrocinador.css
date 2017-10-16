@@ -53,16 +53,20 @@ b {
 
 .img-rounded-atleta {
 	background-image: url("../imagens/profile.jpg");
-	width: 500px;
-	height: 500px;
+	width: 300px;
+	height: 300px;
 	background-position: center;
 	border-radius: 50%;
 	border: 1px solid rgba(226, 226, 226, 0.69);
-    margin: 30px auto;
+    margin: 21px auto 10px;
 }
 
 .profile {
 	margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .profile .name {
@@ -73,18 +77,22 @@ b {
 	margin: 10px;
 }
 
+.profile h1 {
+    font-size: 1.5em;
+}
+
 .trophy-section, .sponsor-section {
-    margin: 21px 10px;
+    margin: 10px;
 
 }
 
 .trophy-section .fa-trophy {
-    font-size: 155px;
-    color: #d0d04d;	
-    padding: 25px;
-    border-radius: 6%;
+    font-size: 63px;
+    color: #d0d04d;
+    padding: 17px;
+    border-radius: 15%;
     border: 1px solid grey;
-    margin: 10px;
+    margin: 10px 8px;
 }
 
 .trophy-box, .sponsor-box {
@@ -92,11 +100,11 @@ b {
 }
 
 .sponsor-box  img{
-    height: 156px;
+    height: 88px;
     border: 1px solid grey;
     padding: 20px;
     border-radius: 13px;
-    margin: 12px;
+    margin: 10px 6px;
 }
 
 .button {
@@ -116,9 +124,8 @@ b {
 
 .button-large {
     border-radius: 55px;
-    font-size: 25px;
-    padding: 13px 120px;
-}
+    font-size: 21px;
+    padding: 10px 115px;}
 
 .button-black {
     color: #fff;
