@@ -125,7 +125,9 @@ b {
 .button-large {
     border-radius: 55px;
     font-size: 21px;
-    padding: 10px 115px;}
+    padding: 10px;
+    min-width: 150px;
+}
 
 .button-black {
     color: #fff;
